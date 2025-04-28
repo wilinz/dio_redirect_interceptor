@@ -1,7 +1,6 @@
 name: dio_redirect_interceptor
 description: A custom interceptor for Dio HTTP client to handle redirects manually.
 version: 1.0.0
-author: wilinz
 homepage: https://github.com/wilinz/dio_redirect_interceptor
 documentation: https://github.com/wilinz/dio_redirect_interceptor
 repository: https://github.com/wilinz/dio_redirect_interceptor
