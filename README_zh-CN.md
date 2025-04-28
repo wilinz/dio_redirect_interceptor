@@ -192,3 +192,8 @@ rawUri: null
 ## 总结
 
 本库提供的 `RedirectInterceptor` 可以有效解决 `Dio` 默认重定向处理的问题，确保在重定向过程中所有需要执行的拦截器（如 `CookieManager` 和自定义拦截器）能够正常工作。通过禁用默认重定向处理，您可以完全控制重定向过程，从而实现更精细的请求控制和处理。
+
+## 许可证
+MIT License. See LICENSE for details.
+
+Now the README.md includes the MIT License section at the end. You can also include a separate LICENSE file with the MIT License text.

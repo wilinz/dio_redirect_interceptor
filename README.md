@@ -193,4 +193,9 @@ By setting the `followRedirects` option to `false`, we disable Dio's default red
 
 The `RedirectInterceptor` provided by this library effectively solves the issue of Dio's default redirect handling. By disabling Dio's default redirect behavior, you gain full control over the redirect process, ensuring that interceptors like `CookieManager` and other custom interceptors can function properly during the redirect process. This approach allows for more precise request handling and management, including cookie management, custom header handling, and more.
 
+## License
+MIT License. See LICENSE for details.
+
+Now the README.md includes the MIT License section at the end. You can also include a separate LICENSE file with the MIT License text.
+
 ---
