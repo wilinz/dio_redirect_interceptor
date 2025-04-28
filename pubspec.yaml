@@ -1,6 +1,10 @@
 name: dio_redirect_interceptor
-description: A starting point for Dart libraries or applications.
+description: A custom interceptor for Dio HTTP client to handle redirects manually.
 version: 1.0.0
+author: wilinz
+homepage: https://github.com/wilinz/dio_redirect_interceptor
+documentation: https://github.com/wilinz/dio_redirect_interceptor
+repository: https://github.com/wilinz/dio_redirect_interceptor
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -14,3 +18,12 @@ dependencies:
 dev_dependencies:
   lints: ^5.0.0
   test: ^1.24.0
+
+publish_to: 'https://pub.dev'
+
+index_generator:
+  exclude:
+    - 'src/internal/*'
+  # Define the paths of the folders in which to generate the index files
+  libraries:
+    - directory_path: lib
