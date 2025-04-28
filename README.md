@@ -195,5 +195,3 @@ The `RedirectInterceptor` provided by this library effectively solves the issue 
 
 ## License
 MIT License. See LICENSE for details.
-
----
