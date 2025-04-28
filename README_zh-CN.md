@@ -195,5 +195,3 @@ rawUri: null
 
 ## 许可证
 MIT License. See LICENSE for details.
-
-Now the README.md includes the MIT License section at the end. You can also include a separate LICENSE file with the MIT License text.

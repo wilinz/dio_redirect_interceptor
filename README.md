@@ -196,6 +196,4 @@ The `RedirectInterceptor` provided by this library effectively solves the issue 
 ## License
 MIT License. See LICENSE for details.
 
-Now the README.md includes the MIT License section at the end. You can also include a separate LICENSE file with the MIT License text.
-
 ---
