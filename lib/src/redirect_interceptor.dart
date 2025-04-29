@@ -72,7 +72,7 @@ class RedirectInterceptor extends Interceptor {
           return;
         }
         if (_redirectCallback != null &&
-            !_redirectCallback.call(response, handler)) {
+            !_redirectCallback!.call(response, handler)) {
           return;
         }
         final location = response.headers.value('location');
